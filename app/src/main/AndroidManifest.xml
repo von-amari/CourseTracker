@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.courseTracker">
+    <application
+
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <receiver
+            android:name="courseTracker.UI.MyReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.media.action.DISPLAY_NOTIFICATION" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            </receiver>
+
+        <activity
+            android:name="courseTracker.UI.EditAssessmentActivity"
+            android:label="Edit Assessment"
+            android:launchMode="singleInstance"
+            android:parentActivityName="courseTracker.UI.AssessmentDetail" />
+        <activity
+            android:name="courseTracker.UI.EditCourseActivity"
+            android:label="Edit Course"
+            android:launchMode="singleInstance"
+            android:parentActivityName="courseTracker.UI.CourseDetailActivity" />
+        <activity
+            android:name="courseTracker.UI.EditTermActivity"
+            android:label="Edit Term"
+            android:launchMode="singleInstance"
+            android:parentActivityName="courseTracker.UI.TermDetailActivity" />
+        <activity
+            android:name="courseTracker.UI.Course_Notes_Activity"
+            android:label="Course Notes"
+            android:launchMode="singleInstance"
+            android:parentActivityName="courseTracker.UI.CourseDetailActivity" />
+        <activity
+            android:name="courseTracker.UI.AddCourseActivity"
+            />
+<!--        android:label="Add Course"-->
+<!--        android:parentActivityName="courseTracker.UI.TermDetailActivity"-->
+        <activity
+            android:name="courseTracker.UI.AddTermActivity"
+            android:label="Add Term"
+            android:parentActivityName="courseTracker.UI.AllTermsActivity" />
+        <activity
+            android:name="courseTracker.UI.CourseDetailActivity"
+            android:label="Course Details"
+            android:launchMode="singleInstance"
+            android:parentActivityName="courseTracker.UI.TermDetailActivity" />
+        <activity
+            android:name="courseTracker.UI.AssessmentDetail"
+            android:label="Assessment Details"
+            android:launchMode="singleInstance"
+            android:parentActivityName="courseTracker.UI.CourseDetailActivity" /> <!-- <activity android:name="courseTracker.UI.AllTermsActivity" -->
+        <!-- android:label="All Terms" -->
+        <!-- android:parentActivityName="courseTracker.UI.MainActivity"/> -->
+        <activity
+            android:name="courseTracker.UI.AddAssessmentsActivity"
+            android:label="Add Assessments"
+            android:parentActivityName="courseTracker.UI.CourseDetailActivity" />
+        <activity
+            android:name="courseTracker.UI.TermDetailActivity"
+            android:label="Term Details"
+            android:parentActivityName="courseTracker.UI.AllTermsActivity" />
+        <activity android:name="courseTracker.UI.AllTermsActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+
+    </application>
+
+</manifest>

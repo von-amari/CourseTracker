@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Course Tracker</string>
+    <string name="homeTitle">COURSE TRACKER</string>
+    <string name="terms">Terms</string>
+    <string name="assessments">Assessments</string>
+    <string name="courses">Courses</string>
+    <string name="all_courses">ALL COURSES</string>
+    <string name="all_terms">ALL TERMS</string>
+    <string name="all_assessments">ALL ASSESSMENTS</string>
+    <string name="empty">Please enter a title, start and end date.</string>
+    <string name="confirm">confirm</string>
+    <string name="are_you_sure">are you sure?</string>
+    <string name="delete_assessment_dialog">Delete</string>
+    <string name="notifications">Notify</string>
+    <string name="channel_name">channel</string>
+    <string name="channel_description">channel description</string>
+    <string name="ok">okay</string>
+    <string name="cancel">cancel</string>
+    <string-array name="courseStatus">
+        <item>Plan to Take</item>
+        <item>In Progress</item>
+        <item>Completed</item>
+        <item>Dropped</item>
+    </string-array>
+    <string-array name="testType">
+        <item>Objective Assessment</item>
+        <item>Performance Assessment</item>
+    </string-array>
+</resources>
