@@ -2,4 +2,4 @@ CourseTracker
 -------------
 *Course Tracker created for WGU's Mobile App Development course.*
 
-<img src="screen.PNG" width="200" height="400">
+<img src="screen2.png" width="600" height="400">
