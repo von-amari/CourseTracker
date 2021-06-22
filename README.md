@@ -5,20 +5,20 @@ CourseTracker
 <img src="screen.jpg" width="600" height="400">
 <meta 
   property=”og:title”
-  content=”Example Title” 
+  content=”Course Tracker” 
 />
 <meta 
   name=”image” 
   property=”og:image” 
-  content=”%PUBLIC_URL%/example.png” 
+  content=”%PUBLIC_URL%/screen.jpg” 
 />
 <meta 
   name=”author” 
-  content=”Example Author” 
+  content=”Yvonne King” 
 />
 <meta 
   property=”og:description” 
-  content=”Example Description“
+  content=”WGU Mobile app development course“
 />
 <meta 
   property=”og:url” 
