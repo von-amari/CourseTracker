@@ -37,5 +37,6 @@ Features
 Technologies
 ---------
 - Java
+- SQLLite
 - Android Studio
 
