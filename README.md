@@ -3,6 +3,27 @@ CourseTracker
 *Course Tracker created for WGU's Mobile App Development course.*
 
 <img src="screen.jpg" width="600" height="400">
+<meta 
+  property=”og:title”
+  content=”Example Title” 
+/>
+<meta 
+  name=”image” 
+  property=”og:image” 
+  content=”%PUBLIC_URL%/example.png” 
+/>
+<meta 
+  name=”author” 
+  content=”Example Author” 
+/>
+<meta 
+  property=”og:description” 
+  content=”Example Description“
+/>
+<meta 
+  property=”og:url” 
+  content=”https://example.com" 
+/>
 
 
 Features
