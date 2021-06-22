@@ -22,7 +22,7 @@ CourseTracker
 />
 <meta 
   property=”og:url” 
-  content=”https://example.com" 
+  content=”https://github.com/von-amari/CourseTracker" 
 />
 
 
